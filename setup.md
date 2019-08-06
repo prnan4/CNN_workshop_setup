@@ -4,15 +4,17 @@
 **Installing on macOS** : https://docs.anaconda.com/anaconda/install/mac-os/ <br>
 **Installing on Linux** : https://docs.anaconda.com/anaconda/install/linux/ <br>
 
-<p>Note: Choose Python 3.7 Graphical version from the versions available. It is not required to install PyCharm along with Anaconda IDE.<br>After your installation is complete, verify it by opening Anaconda Navigator from your terminal/desktop.</p>
+<p>Note: Choose Python 3.7 Graphical version from the versions available. It is not required to install PyCharm along with Anaconda IDE.<br>After your installation is complete, verify it by opening Anaconda Navigator from your terminal/desktop. You should be able to see something like this.</p>
 
 ![img](img1.png)
 
-<p>Now, click on the option to launch Jupyter notebook. This will take you to a directory where you can work with and manage your python scripts.</p>
+<p>Now, click on the option to 'Launch' Jupyter notebook. This will take you to a directory where you can work with your python scripts.</p>
 
 ![img](img2.png)
 
-<p>Create a new Python 3 notebook and type in the following commands for downloading packages. Tensorflow and keras will be required for model building. Matplotlib and tensorboard for visualisations.</p>
+## Installing required Packages
+
+<p>Create a new Python 3 notebook and type in the following commands as follows. Tensorflow and keras will be required for model building. Matplotlib and tensorboard for visualisations.</p>
 
 ```sh
 !pip install numpy
@@ -23,3 +25,18 @@
 !pip install tensorboard
 ```
 ![img](img3.png)
+
+## Downloading the dataset
+
+<p> We will be working with classic Dog vs Cat classification and we will be using the Kaggle dataset for the same. The following link will direct you to the kaggle page.<br></p>
+
+https://www.kaggle.com/c/dogs-vs-cats/data<br><br>
+
+<p>Before downloading the data, you will have to sign in with your Google account. Then click on 'Download All' at the bottom of the page.</p>
+
+![img](img4.png)
+
+<p>Once your installations are ready and the data is downloaded, you are good to go!</p>
+
+
+
