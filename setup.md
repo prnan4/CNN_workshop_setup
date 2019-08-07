@@ -14,7 +14,7 @@
 
 ## Installing required Packages
 
-<p>Create a new Python 3 notebook and type in the following commands as follows. Tensorflow and keras will be required for model building. Matplotlib and tensorboard for visualisations.</p>
+<p>Create a new Python 3 notebook. Copy and paste the following commands in a new cell. Tensorflow and keras will be required for model building. Matplotlib and tensorboard for visualisations. Click on the 'Run' 'icon to run the cell.</p>
 
 ```sh
 !pip install numpy
@@ -28,13 +28,17 @@
 
 ## Downloading the dataset
 
-<p> We will be working with classic Dog vs Cat classification and we will be using the Kaggle dataset for the same. The following link will direct you to the kaggle page.<br></p>
+<p> We will be working with classic Dog vs Cat classification and we will be using the Kaggle dataset for the same. The following link will direct you to the kaggle page. <br></p>
 
-https://www.kaggle.com/c/dogs-vs-cats/data<br><br>
+https://www.kaggle.com/c/dogs-vs-cats/data<br>uj
 
 <p>Before downloading the data, you will have to sign in with your Google account. Then click on 'Download All' at the bottom of the page.</p>
 
 ![img](img4.png)
+
+<p>Unzip the downloaded file. The contents of the file will be as follows</p>
+
+![img](img5.png)
 
 <p>Once your installations are ready and the data is downloaded, you are good to go!</p>
 
